@@ -1,0 +1,182 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Tippen. Verdienen. Entwickeln.",
+      "subtitle": "Die Zukunft des digitalen Einkommens hat begonnen.",
+      "description": "Verdienen Sie LightCoin-Token mit nur einem Fingertipp. Spielen, sammeln und bauen Sie Ihr Vermögen im Web3-Zeitalter auf — direkt von Ihrem Telefon.",
+      "cta": "Jetzt kostenlos Mining starten"
+    },
+    "features": {
+      "title": "Warum LightCoin X?",
+      "multiplatform": {
+        "title": "Multiplattform-Design",
+        "description": "Schnell, sicher und von allen Geräten zugänglich — von Telefonen bis PCs."
+      },
+      "rewards": {
+        "title": "Echte Belohnungen",
+        "description": "Verdienen Sie LightCoin-Token, die in unserem digitalen Marktplatz verwendet oder getauscht werden können."
+      },
+      "community": {
+        "title": "Von der Community gebaut",
+        "description": "Schließen Sie sich Tausenden von Minern aus der ganzen Welt an, die sich gegenseitig für eine dezentrale Zukunft unterstützen."
+      }
+    },
+    "cta": {
+      "title": "Bereit beizutreten?",
+      "description": "Erstellen Sie Ihr Konto und beginnen Sie jetzt mit dem Mining — alles ist kostenlos, keine Vorabkosten!",
+      "button": "Jetzt starten"
+    },
+    "social": {
+      "title": "Treten Sie unserer Community bei",
+      "telegram": "Telegram-Kanal",
+      "twitter": "Folgen auf X",
+      "youtube": "YouTube-Kanal",
+      "instagram": "Instagram",
+      "tiktok": "TikTok"
+    },
+    "footer": "© 2025 LightCoin X. Für die Community gebaut. Angetrieben von dezentraler Vision."
+  },
+  "auth": {
+    "login": {
+      "title": "Willkommen zurück ⚡",
+      "subtitle": "Die LightCoin-Welt erwartet Sie.",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "button": "Anmelden",
+      "google": "Mit Google anmelden (Schnell & Sicher)",
+      "noAccount": "Noch kein Konto?",
+      "register": "Registrieren"
+    },
+    "register": {
+      "title": "Konto erstellen & Abenteuer starten.",
+      "name": "Vollständiger Name",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "button": "Registrieren",
+      "google": "Mit Google registrieren (Schnell & Sicher)",
+      "hasAccount": "Bereits ein Konto?",
+      "login": "Anmelden"
+    }
+  },
+  "dashboard": {
+    "title": "💎 Jeder Tipp bringt Sie der finanziellen Freiheit näher.",
+    "balance": "Light-Guthaben",
+    "balanceDesc": "Je mehr Sie minen, desto heller wird Ihr Licht.",
+    "energy": "Energie",
+    "energyDesc": "Energie = Gelegenheit. Nutzen Sie sie weise!",
+    "tapToEarn": "Tippen zum Verdienen",
+    "dailyBonus": "Täglicher Bonus",
+    "claimBonus": "Beanspruchen +10.000 Light!",
+    "floatingTip": "Beanspruchen Sie Ihren täglichen Bonus, um +10.000 Light zu erhalten!"
+  },
+  "referral": {
+    "title": "🎁 Teilen Sie das Licht, erhalten Sie Belohnungen.",
+    "description": "Laden Sie Ihre Freunde ein und verdienen Sie +50.000 Light für jede Person, die beitritt.",
+    "yourCode": "Ihr Empfehlungscode",
+    "copyLink": "🔗 Empfehlungslink kopieren",
+    "copied": "Kopiert!",
+    "stats": {
+      "total": "Gesamte Empfehlungen",
+      "active": "Aktive Empfehlungen",
+      "earned": "Gesamt verdient"
+    },
+    "badge": {
+      "gold": "Gold-Abzeichen (≥10 Freunde)",
+      "silver": "Silber-Abzeichen (≥5 Freunde)",
+      "bronze": "Bronze-Abzeichen (≥1 Freund)"
+    }
+  },
+  "shop": {
+    "title": "🛍️ Leveln Sie mit Boost-Paketen und Energie-Nachfüllungen auf!",
+    "description": "Tauschen Sie Ihre LightCoin ein, um exklusive Mining-Vorteile zu erhalten.",
+    "items": {
+      "energyBoost": {
+        "name": "Energie-Boost-Paket",
+        "description": "Füllen Sie Ihre Energie sofort auf und minen Sie weiter!"
+      },
+      "tapPower": {
+        "name": "Tipp-Power-Upgrade",
+        "description": "Verdienen Sie 24 Stunden lang 2x Light pro Tipp"
+      },
+      "vipPass": {
+        "name": "VIP-Pass (30 Tage)",
+        "description": "Erhalten Sie tägliche Boni, exklusive Belohnungen und vorrangigen Support"
+      }
+    },
+    "buyNow": "💸 Jetzt kaufen",
+    "paymentModal": {
+      "title": "Zahlung abschließen",
+      "description": "Senden Sie TON-Token an die folgende Adresse:",
+      "address": "Zahlungsadresse",
+      "amount": "Betrag",
+      "copy": "Adresse kopieren",
+      "verifying": "Zahlung wird überprüft...",
+      "success": "Zahlung verifiziert! Artikel zu Ihrem Konto hinzugefügt.",
+      "failed": "Zahlungsüberprüfung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "close": "Schließen"
+    }
+  },
+  "tasks": {
+    "title": "Erledigen Sie tägliche Missionen und verdienen Sie zusätzliches Light.",
+    "available": "Verfügbare Aufgaben",
+    "completed": "Erledigte Aufgaben",
+    "claim": "Beanspruchen",
+    "claimed": "Beansprucht",
+    "tasks": {
+      "twitter": "Folgen Sie dem offiziellen Twitter-Konto",
+      "telegram": "Treten Sie der Telegram-Community bei",
+      "invite": "Laden Sie 1 neuen Freund ein",
+      "daily": "Melden Sie sich 7 Tage lang täglich an",
+      "mine": "Minen Sie 100.000 Light"
+    }
+  },
+  "leaderboard": {
+    "title": "🏆 Konkurrieren Sie fair. Seien Sie diese Woche der beste Miner.",
+    "rank": "Rang",
+    "name": "Name",
+    "light": "Light",
+    "you": "Sie"
+  },
+  "profile": {
+    "title": "👤 Verwalten Sie Ihr Konto, ändern Sie die Sprache und sehen Sie Ihren Fortschritt.",
+    "stats": {
+      "totalMined": "Gesamt geminetes Light",
+      "activeReferrals": "Aktive Empfehlungen",
+      "dailyBonus": "Tägliche Bonus-Serie"
+    },
+    "settings": {
+      "title": "Einstellungen",
+      "language": "Sprache",
+      "notifications": "Benachrichtigungen",
+      "sound": "Soundeffekte"
+    },
+    "logout": "Abmelden"
+  },
+  "nav": {
+    "home": "Startseite",
+    "referral": "Empfehlung",
+    "shop": "Shop",
+    "tasks": "Aufgaben",
+    "leaderboard": "Bestenliste",
+    "profile": "Profil"
+  },
+  "lightbot": {
+    "greeting": "Hallo, {name}! Ich bin LightBot ⚡. Bereit, Ihnen zu helfen, der beste Miner zu werden!",
+    "tips": [
+      "Vergessen Sie nicht, Ihren täglichen Bonus zu beanspruchen!",
+      "Laden Sie Freunde ein, um mehr Light zu verdienen!",
+      "Erledigen Sie Aufgaben für zusätzliche Belohnungen!",
+      "Upgraden Sie Ihre Tipp-Power im Shop!"
+    ],
+    "motivation": "Großes Licht beginnt mit einem einzigen Tipp.",
+    "placeholder": "Fragen Sie mich alles...",
+    "close": "Schließen"
+  },
+  "dailyBonusModal": {
+    "title": "Täglicher Bonus! 🎉",
+    "message": "Glückwunsch! Sie haben Ihren täglichen Bonus +5.000 Light erhalten ✨",
+    "streak": "Tag {day} Serie",
+    "claim": "Bonus beanspruchen",
+    "close": "Schließen"
+  }
+}
