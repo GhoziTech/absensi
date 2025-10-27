@@ -15,8 +15,8 @@ const Landing = () => {
     },
     {
       icon: <Sparkles className="w-8 h-8" />,
-      title: t('landing.features.rewards.title'),
-      description: t('landing.features.rewards.description')
+      title: t('landing.features.realRewards.title'),
+      description: t('landing.features.realRewards.description')
     },
     {
       icon: <Users className="w-8 h-8" />,

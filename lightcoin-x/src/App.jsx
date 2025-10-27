@@ -1,35 +1,150 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { AuthProvider, useAuth } from './contexts/AuthContext';
+import './i18n/config';
 
-function App() {
-  const [count, setCount] = useState(0)
+// Pages
+import Landing from './pages/Landing';
+import Auth from './pages/Auth';
+import Dashboard from './pages/Dashboard';
+import Tasks from './pages/Tasks';
+import Referral from './pages/Referral';
+import Shop from './pages/Shop';
+import Profile from './pages/Profile';
+import Leaderboard from './pages/Leaderboard';
+
+// Components
+import BottomNav from './components/BottomNav';
+import LightBot from './components/LightBot';
+
+// Protected Route Component
+const ProtectedRoute = ({ children }) => {
+  const { user, loading } = useAuth();
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-dark via-purple-900 to-dark flex items-center justify-center">
+        <div className="text-white text-xl">Loading...</div>
+      </div>
+    );
+  }
+
+  if (!user) {
+    return <Navigate to="/auth" replace />;
+  }
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {children}
+      <BottomNav />
+      <LightBot />
     </>
-  )
+  );
+};
+
+// Public Route Component (redirect if already logged in)
+const PublicRoute = ({ children }) => {
+  const { user, loading } = useAuth();
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-dark via-purple-900 to-dark flex items-center justify-center">
+        <div className="text-white text-xl">Loading...</div>
+      </div>
+    );
+  }
+
+  if (user) {
+    return <Navigate to="/dashboard" replace />;
+  }
+
+  return children;
+};
+
+function AppContent() {
+  return (
+    <Router>
+      <Routes>
+        {/* Public Routes */}
+        <Route
+          path="/"
+          element={
+            <PublicRoute>
+              <Landing />
+            </PublicRoute>
+          }
+        />
+        <Route
+          path="/auth"
+          element={
+            <PublicRoute>
+              <Auth />
+            </PublicRoute>
+          }
+        />
+
+        {/* Protected Routes */}
+        <Route
+          path="/dashboard"
+          element={
+            <ProtectedRoute>
+              <Dashboard />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/tasks"
+          element={
+            <ProtectedRoute>
+              <Tasks />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/referral"
+          element={
+            <ProtectedRoute>
+              <Referral />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/shop"
+          element={
+            <ProtectedRoute>
+              <Shop />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/profile"
+          element={
+            <ProtectedRoute>
+              <Profile />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/leaderboard"
+          element={
+            <ProtectedRoute>
+              <Leaderboard />
+            </ProtectedRoute>
+          }
+        />
+
+        {/* Catch all - redirect to landing */}
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+function App() {
+  return (
+    <AuthProvider>
+      <AppContent />
+    </AuthProvider>
+  );
+}
+
+export default App;

@@ -2,17 +2,17 @@
   "landing": {
     "hero": {
       "title": "Tippen. Verdienen. Entwickeln.",
-      "subtitle": "Die Zukunft des digitalen Einkommens hat begonnen.",
-      "description": "Verdienen Sie LightCoin-Token mit nur einem Fingertipp. Spielen, sammeln und bauen Sie Ihr Vermögen im Web3-Zeitalter auf — direkt von Ihrem Telefon.",
-      "cta": "Jetzt kostenlos Mining starten"
+      "subtitle": "Die Zukunft des digitalen Verdienstes hat begonnen.",
+      "description": "Verdienen Sie LightCoin-Token mit nur einem Tippen. Spielen, sammeln und bauen Sie Ihr Vermögen im Web3-Zeitalter auf — direkt von Ihrem Telefon.",
+      "cta": "Jetzt Mining starten (Kostenlos)"
     },
     "features": {
       "title": "Warum LightCoin X?",
       "multiplatform": {
-        "title": "Multiplattform-Design",
+        "title": "Multi-Plattform-Design",
         "description": "Schnell, sicher und von allen Geräten zugänglich — von Telefonen bis PCs."
       },
-      "rewards": {
+      "realRewards": {
         "title": "Echte Belohnungen",
         "description": "Verdienen Sie LightCoin-Token, die in unserem digitalen Marktplatz verwendet oder getauscht werden können."
       },
@@ -24,17 +24,17 @@
     "cta": {
       "title": "Bereit beizutreten?",
       "description": "Erstellen Sie Ihr Konto und beginnen Sie jetzt mit dem Mining — alles ist kostenlos, keine Vorabkosten!",
-      "button": "Jetzt starten"
+      "button": "Loslegen"
     },
     "social": {
       "title": "Treten Sie unserer Community bei",
-      "telegram": "Telegram-Kanal",
-      "twitter": "Folgen auf X",
-      "youtube": "YouTube-Kanal",
+      "telegram": "Telegram",
+      "twitter": "Twitter",
+      "youtube": "YouTube",
       "instagram": "Instagram",
       "tiktok": "TikTok"
     },
-    "footer": "© 2025 LightCoin X. Für die Community gebaut. Angetrieben von dezentraler Vision."
+    "footer": "© 2025 LightCoin X. Für die Community gebaut. Angetrieben von Dezentralisierungsvision."
   },
   "auth": {
     "login": {
@@ -45,104 +45,121 @@
       "button": "Anmelden",
       "google": "Mit Google anmelden (Schnell & Sicher)",
       "noAccount": "Noch kein Konto?",
-      "register": "Registrieren"
+      "signUp": "Registrieren"
     },
     "register": {
-      "title": "Konto erstellen & Abenteuer starten.",
+      "title": "Konto erstellen & Abenteuer starten",
       "name": "Vollständiger Name",
       "email": "E-Mail",
       "password": "Passwort",
-      "button": "Registrieren",
+      "button": "Konto erstellen",
       "google": "Mit Google registrieren (Schnell & Sicher)",
       "hasAccount": "Bereits ein Konto?",
-      "login": "Anmelden"
+      "signIn": "Anmelden"
     }
   },
   "dashboard": {
-    "title": "💎 Jeder Tipp bringt Sie der finanziellen Freiheit näher.",
+    "welcome": "💎 Jeder Tipp bringt Sie der finanziellen Freiheit näher.",
     "balance": "Light-Guthaben",
     "balanceDesc": "Je mehr Sie minen, desto heller wird Ihr Licht.",
     "energy": "Energie",
     "energyDesc": "Energie = Gelegenheit. Nutzen Sie sie weise!",
-    "tapToEarn": "Tippen zum Verdienen",
+    "tapPower": "Tipp-Kraft",
     "dailyBonus": "Täglicher Bonus",
-    "claimBonus": "Beanspruchen +10.000 Light!",
-    "floatingTip": "Beanspruchen Sie Ihren täglichen Bonus, um +10.000 Light zu erhalten!"
+    "claimBonus": "Beanspruchen Sie +10.000 Light!",
+    "tapToMine": "Tippen zum Minen",
+    "stats": {
+      "totalMined": "Gesamt gemint",
+      "referrals": "Empfehlungen",
+      "rank": "Rang"
+    }
   },
   "referral": {
     "title": "🎁 Teilen Sie das Licht, erhalten Sie Belohnungen.",
     "description": "Laden Sie Ihre Freunde ein und verdienen Sie +50.000 Light für jede Person, die beitritt.",
     "yourCode": "Ihr Empfehlungscode",
-    "copyLink": "🔗 Empfehlungslink kopieren",
+    "copyLink": "Empfehlungslink kopieren",
     "copied": "Kopiert!",
     "stats": {
       "total": "Gesamte Empfehlungen",
-      "active": "Aktive Empfehlungen",
-      "earned": "Gesamt verdient"
+      "earned": "Gesamt verdient",
+      "active": "Aktive Empfehlungen"
     },
-    "badge": {
-      "gold": "Gold-Abzeichen (≥10 Freunde)",
-      "silver": "Silber-Abzeichen (≥5 Freunde)",
-      "bronze": "Bronze-Abzeichen (≥1 Freund)"
+    "list": {
+      "title": "Ihre Empfehlungen",
+      "empty": "Noch keine Empfehlungen. Beginnen Sie zu teilen!",
+      "joined": "Beigetreten"
     }
   },
   "shop": {
-    "title": "🛍️ Leveln Sie mit Boost-Paketen und Energie-Nachfüllungen auf!",
-    "description": "Tauschen Sie Ihre LightCoin ein, um exklusive Mining-Vorteile zu erhalten.",
+    "title": "🛍️ Verbessern Sie Ihr Mining",
+    "description": "Tauschen Sie Ihre LightCoin gegen exklusive Mining-Vorteile.",
+    "buyNow": "Jetzt kaufen",
     "items": {
       "energyBoost": {
-        "name": "Energie-Boost-Paket",
-        "description": "Füllen Sie Ihre Energie sofort auf und minen Sie weiter!"
+        "name": "Energie-Boost",
+        "description": "Füllen Sie sofort 1000 Energiepunkte auf"
       },
       "tapPower": {
-        "name": "Tipp-Power-Upgrade",
-        "description": "Verdienen Sie 24 Stunden lang 2x Light pro Tipp"
+        "name": "Tipp-Kraft 2x",
+        "description": "Verdoppeln Sie Ihre Mining-Kraft für 24 Stunden"
       },
       "vipPass": {
-        "name": "VIP-Pass (30 Tage)",
-        "description": "Erhalten Sie tägliche Boni, exklusive Belohnungen und vorrangigen Support"
+        "name": "VIP-Pass",
+        "description": "Schalten Sie exklusive Vorteile für 30 Tage frei"
       }
-    },
-    "buyNow": "💸 Jetzt kaufen",
-    "paymentModal": {
-      "title": "Zahlung abschließen",
-      "description": "Senden Sie TON-Token an die folgende Adresse:",
-      "address": "Zahlungsadresse",
-      "amount": "Betrag",
-      "copy": "Adresse kopieren",
-      "verifying": "Zahlung wird überprüft...",
-      "success": "Zahlung verifiziert! Artikel zu Ihrem Konto hinzugefügt.",
-      "failed": "Zahlungsüberprüfung fehlgeschlagen. Bitte versuchen Sie es erneut.",
-      "close": "Schließen"
     }
   },
   "tasks": {
-    "title": "Erledigen Sie tägliche Missionen und verdienen Sie zusätzliches Light.",
+    "title": "🏆 Tägliche Missionen abschließen",
+    "description": "Schließen Sie Missionen ab und verdienen Sie zusätzliches Light.",
     "available": "Verfügbare Aufgaben",
-    "completed": "Erledigte Aufgaben",
-    "claim": "Beanspruchen",
+    "completed": "Abgeschlossene Aufgaben",
+    "claim": "Belohnung beanspruchen",
     "claimed": "Beansprucht",
-    "tasks": {
-      "twitter": "Folgen Sie dem offiziellen Twitter-Konto",
-      "telegram": "Treten Sie der Telegram-Community bei",
-      "invite": "Laden Sie 1 neuen Freund ein",
-      "daily": "Melden Sie sich 7 Tage lang täglich an",
-      "mine": "Minen Sie 100.000 Light"
+    "complete": "Abschließen",
+    "list": {
+      "followTwitter": {
+        "title": "Twitter folgen",
+        "description": "Folgen Sie unserem offiziellen Twitter-Konto"
+      },
+      "joinTelegram": {
+        "title": "Telegram beitreten",
+        "description": "Treten Sie unserer Telegram-Community bei"
+      },
+      "inviteFriend": {
+        "title": "1 Freund einladen",
+        "description": "Teilen Sie Ihren Empfehlungslink"
+      },
+      "dailyLogin": {
+        "title": "Tägliche Anmeldung",
+        "description": "Melden Sie sich jeden Tag an, um Bonus zu verdienen"
+      },
+      "mine1000": {
+        "title": "1.000 Light minen",
+        "description": "Tippen und minen Sie heute 1.000 Light"
+      }
     }
   },
   "leaderboard": {
-    "title": "🏆 Konkurrieren Sie fair. Seien Sie diese Woche der beste Miner.",
+    "title": "🏆 Top-Miner",
+    "description": "Konkurrieren Sie fair. Seien Sie diese Woche der beste Miner.",
     "rank": "Rang",
-    "name": "Name",
+    "miner": "Miner",
     "light": "Light",
     "you": "Sie"
   },
   "profile": {
-    "title": "👤 Verwalten Sie Ihr Konto, ändern Sie die Sprache und sehen Sie Ihren Fortschritt.",
+    "title": "Profileinstellungen",
+    "account": "Kontoinformationen",
+    "name": "Name",
+    "email": "E-Mail",
+    "joined": "Beigetreten",
     "stats": {
-      "totalMined": "Gesamt geminetes Light",
+      "title": "Ihre Statistiken",
+      "totalMined": "Gesamt Light gemint",
       "activeReferrals": "Aktive Empfehlungen",
-      "dailyBonus": "Tägliche Bonus-Serie"
+      "dailyStreak": "Tägliche Bonus-Serie"
     },
     "settings": {
       "title": "Einstellungen",
@@ -152,31 +169,52 @@
     },
     "logout": "Abmelden"
   },
-  "nav": {
-    "home": "Startseite",
-    "referral": "Empfehlung",
-    "shop": "Shop",
-    "tasks": "Aufgaben",
-    "leaderboard": "Bestenliste",
-    "profile": "Profil"
+  "payment": {
+    "title": "Zahlung abschließen",
+    "item": "Artikel",
+    "amount": "Betrag",
+    "instructions": "Senden Sie den genauen TON-Betrag an die unten stehende Wallet-Adresse. Fügen Sie nach dem Senden Ihren Transaktions-Hash ein, um zu verifizieren.",
+    "walletAddress": "Wallet-Adresse",
+    "scanQR": "QR-Code mit Ihrer TON-Wallet scannen",
+    "txHashLabel": "Transaktions-Hash",
+    "txHashPlaceholder": "Geben Sie Ihren Transaktions-Hash ein...",
+    "enterTxHash": "Bitte geben Sie Ihren Transaktions-Hash ein",
+    "verifyButton": "Zahlung verifizieren",
+    "demoConfirm": "Zahlung bestätigen",
+    "verifying": "Zahlung wird verifiziert...",
+    "verifyingDesc": "Bitte warten Sie, während wir Ihre Transaktion auf der Blockchain verifizieren.",
+    "success": "Zahlung erfolgreich!",
+    "successDesc": "Ihr Kauf wurde bestätigt und Ihrem Konto hinzugefügt.",
+    "failed": "Verifizierung fehlgeschlagen",
+    "failedDesc": "Wir konnten Ihre Transaktion nicht verifizieren. Bitte überprüfen Sie Ihren Transaktions-Hash und versuchen Sie es erneut.",
+    "tryAgain": "Erneut versuchen",
+    "needHelp": "Benötigen Sie Hilfe bei TON-Zahlungen?"
   },
   "lightbot": {
     "greeting": "Hallo, {name}! Ich bin LightBot ⚡. Bereit, Ihnen zu helfen, der beste Miner zu werden!",
+    "placeholder": "Fragen Sie mich etwas...",
     "tips": [
       "Vergessen Sie nicht, Ihren täglichen Bonus zu beanspruchen!",
       "Laden Sie Freunde ein, um mehr Light zu verdienen!",
-      "Erledigen Sie Aufgaben für zusätzliche Belohnungen!",
-      "Upgraden Sie Ihre Tipp-Power im Shop!"
+      "Schließen Sie tägliche Aufgaben für zusätzliche Belohnungen ab!",
+      "Verbessern Sie Ihre Tipp-Kraft im Shop!"
     ],
-    "motivation": "Großes Licht beginnt mit einem einzigen Tipp.",
-    "placeholder": "Fragen Sie mich alles...",
-    "close": "Schließen"
+    "motivation": "Großes Licht beginnt mit einem einzigen Tipp."
   },
-  "dailyBonusModal": {
-    "title": "Täglicher Bonus! 🎉",
-    "message": "Glückwunsch! Sie haben Ihren täglichen Bonus +5.000 Light erhalten ✨",
-    "streak": "Tag {day} Serie",
-    "claim": "Bonus beanspruchen",
+  "nav": {
+    "home": "Startseite",
+    "tasks": "Aufgaben",
+    "referral": "Empfehlung",
+    "shop": "Shop",
+    "profile": "Profil",
+    "leaderboard": "Bestenliste"
+  },
+  "common": {
+    "loading": "Lädt...",
+    "error": "Ein Fehler ist aufgetreten",
+    "success": "Erfolg!",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
     "close": "Schließen"
   }
 }

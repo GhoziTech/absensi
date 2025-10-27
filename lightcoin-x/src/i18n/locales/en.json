@@ -3,7 +3,7 @@
     "hero": {
       "title": "Tap. Earn. Evolve.",
       "subtitle": "The Future of Digital Earnings Has Begun.",
-      "description": "Earn LightCoin tokens with just a tap of your finger. Play, collect, and build your wealth in the Web3 era — straight from your phone.",
+      "description": "Earn LightCoin tokens with just a tap. Play, collect, and build your wealth in the Web3 era — straight from your phone.",
       "cta": "Start Mining Now (Free)"
     },
     "features": {
@@ -12,7 +12,7 @@
         "title": "Multi-Platform Design",
         "description": "Fast, secure, and accessible from all devices — from phones to PCs."
       },
-      "rewards": {
+      "realRewards": {
         "title": "Real Rewards",
         "description": "Earn LightCoin tokens that can be used or exchanged in our digital marketplace."
       },
@@ -28,9 +28,9 @@
     },
     "social": {
       "title": "Join Our Community",
-      "telegram": "Telegram Channel",
-      "twitter": "Follow on X",
-      "youtube": "YouTube Channel",
+      "telegram": "Telegram",
+      "twitter": "Twitter",
+      "youtube": "YouTube",
       "instagram": "Instagram",
       "tiktok": "TikTok"
     },
@@ -42,107 +42,124 @@
       "subtitle": "The LightCoin world awaits you.",
       "email": "Email",
       "password": "Password",
-      "button": "Login",
+      "button": "Sign In",
       "google": "Sign in with Google (Fast & Secure)",
       "noAccount": "Don't have an account?",
-      "register": "Register"
+      "signUp": "Sign Up"
     },
     "register": {
-      "title": "Create Account & Start Your Adventure.",
+      "title": "Create Account & Start Your Adventure",
       "name": "Full Name",
       "email": "Email",
       "password": "Password",
-      "button": "Register",
+      "button": "Create Account",
       "google": "Sign up with Google (Fast & Secure)",
       "hasAccount": "Already have an account?",
-      "login": "Login"
+      "signIn": "Sign In"
     }
   },
   "dashboard": {
-    "title": "💎 Every tap brings you closer to financial freedom.",
+    "welcome": "💎 Every tap brings you closer to financial freedom.",
     "balance": "Light Balance",
     "balanceDesc": "The more you mine, the brighter your light.",
     "energy": "Energy",
     "energyDesc": "Energy = Opportunity. Use it wisely!",
-    "tapToEarn": "Tap to Earn",
+    "tapPower": "Tap Power",
     "dailyBonus": "Daily Bonus",
     "claimBonus": "Claim +10,000 Light!",
-    "floatingTip": "Claim your daily bonus to get +10,000 Light!"
+    "tapToMine": "Tap to Mine",
+    "stats": {
+      "totalMined": "Total Mined",
+      "referrals": "Referrals",
+      "rank": "Rank"
+    }
   },
   "referral": {
     "title": "🎁 Share the light, get rewards.",
     "description": "Invite your friends and earn +50,000 Light for each person who joins.",
     "yourCode": "Your Referral Code",
-    "copyLink": "🔗 Copy Referral Link",
+    "copyLink": "Copy Referral Link",
     "copied": "Copied!",
     "stats": {
       "total": "Total Referrals",
-      "active": "Active Referrals",
-      "earned": "Total Earned"
+      "earned": "Total Earned",
+      "active": "Active Referrals"
     },
-    "badge": {
-      "gold": "Gold Badge (≥10 friends)",
-      "silver": "Silver Badge (≥5 friends)",
-      "bronze": "Bronze Badge (≥1 friend)"
+    "list": {
+      "title": "Your Referrals",
+      "empty": "No referrals yet. Start sharing!",
+      "joined": "Joined"
     }
   },
   "shop": {
-    "title": "🛍️ Level up with Boost Packs and Energy Refills!",
-    "description": "Exchange your LightCoin to get exclusive mining advantages.",
+    "title": "🛍️ Level Up Your Mining",
+    "description": "Exchange your LightCoin for exclusive mining advantages.",
+    "buyNow": "Buy Now",
     "items": {
       "energyBoost": {
-        "name": "Energy Boost Pack",
-        "description": "Refill your energy instantly and keep mining!"
+        "name": "Energy Boost",
+        "description": "Instantly refill 1000 energy points"
       },
       "tapPower": {
-        "name": "Tap Power Upgrade",
-        "description": "Earn 2x Light per tap for 24 hours"
+        "name": "Tap Power 2x",
+        "description": "Double your mining power for 24 hours"
       },
       "vipPass": {
-        "name": "VIP Pass (30 Days)",
-        "description": "Get daily bonuses, exclusive rewards, and priority support"
+        "name": "VIP Pass",
+        "description": "Unlock exclusive benefits for 30 days"
       }
-    },
-    "buyNow": "💸 Buy Now",
-    "paymentModal": {
-      "title": "Complete Payment",
-      "description": "Send TON tokens to the address below:",
-      "address": "Payment Address",
-      "amount": "Amount",
-      "copy": "Copy Address",
-      "verifying": "Verifying payment...",
-      "success": "Payment verified! Item added to your account.",
-      "failed": "Payment verification failed. Please try again.",
-      "close": "Close"
     }
   },
   "tasks": {
-    "title": "Complete daily missions and earn extra Light.",
+    "title": "🏆 Complete Daily Missions",
+    "description": "Complete missions and earn extra Light.",
     "available": "Available Tasks",
     "completed": "Completed Tasks",
-    "claim": "Claim",
+    "claim": "Claim Reward",
     "claimed": "Claimed",
-    "tasks": {
-      "twitter": "Follow official Twitter account",
-      "telegram": "Join Telegram community",
-      "invite": "Invite 1 new friend",
-      "daily": "Login daily for 7 days",
-      "mine": "Mine 100,000 Light"
+    "complete": "Complete",
+    "list": {
+      "followTwitter": {
+        "title": "Follow Twitter",
+        "description": "Follow our official Twitter account"
+      },
+      "joinTelegram": {
+        "title": "Join Telegram",
+        "description": "Join our Telegram community"
+      },
+      "inviteFriend": {
+        "title": "Invite 1 Friend",
+        "description": "Share your referral link"
+      },
+      "dailyLogin": {
+        "title": "Daily Login",
+        "description": "Login every day to earn bonus"
+      },
+      "mine1000": {
+        "title": "Mine 1,000 Light",
+        "description": "Tap and mine 1,000 Light today"
+      }
     }
   },
   "leaderboard": {
-    "title": "🏆 Compete fairly. Be the best miner this week.",
+    "title": "🏆 Top Miners",
+    "description": "Compete fairly. Be the best miner this week.",
     "rank": "Rank",
-    "name": "Name",
+    "miner": "Miner",
     "light": "Light",
     "you": "You"
   },
   "profile": {
-    "title": "👤 Manage your account, change language, and see your progress.",
+    "title": "Profile Settings",
+    "account": "Account Information",
+    "name": "Name",
+    "email": "Email",
+    "joined": "Joined",
     "stats": {
+      "title": "Your Statistics",
       "totalMined": "Total Light Mined",
       "activeReferrals": "Active Referrals",
-      "dailyBonus": "Daily Bonus Streak"
+      "dailyStreak": "Daily Bonus Streak"
     },
     "settings": {
       "title": "Settings",
@@ -150,33 +167,54 @@
       "notifications": "Notifications",
       "sound": "Sound Effects"
     },
-    "logout": "Logout"
+    "logout": "Sign Out"
   },
-  "nav": {
-    "home": "Home",
-    "referral": "Referral",
-    "shop": "Shop",
-    "tasks": "Tasks",
-    "leaderboard": "Leaderboard",
-    "profile": "Profile"
+  "payment": {
+    "title": "Complete Payment",
+    "item": "Item",
+    "amount": "Amount",
+    "instructions": "Send the exact amount of TON to the wallet address below. After sending, paste your transaction hash to verify.",
+    "walletAddress": "Wallet Address",
+    "scanQR": "Scan QR code with your TON wallet",
+    "txHashLabel": "Transaction Hash",
+    "txHashPlaceholder": "Enter your transaction hash...",
+    "enterTxHash": "Please enter your transaction hash",
+    "verifyButton": "Verify Payment",
+    "demoConfirm": "Confirm Payment",
+    "verifying": "Verifying Payment...",
+    "verifyingDesc": "Please wait while we verify your transaction on the blockchain.",
+    "success": "Payment Successful!",
+    "successDesc": "Your purchase has been confirmed and added to your account.",
+    "failed": "Verification Failed",
+    "failedDesc": "We couldn't verify your transaction. Please check your transaction hash and try again.",
+    "tryAgain": "Try Again",
+    "needHelp": "Need help with TON payments?"
   },
   "lightbot": {
     "greeting": "Hi, {name}! I'm LightBot ⚡. Ready to help you become the best miner!",
+    "placeholder": "Ask me anything...",
     "tips": [
       "Don't forget to claim your daily bonus!",
       "Invite friends to earn more Light!",
-      "Complete tasks for extra rewards!",
+      "Complete daily tasks for extra rewards!",
       "Upgrade your tap power in the shop!"
     ],
-    "motivation": "Great light starts with a single tap.",
-    "placeholder": "Ask me anything...",
-    "close": "Close"
+    "motivation": "Great light starts with a single tap."
   },
-  "dailyBonusModal": {
-    "title": "Daily Bonus! 🎉",
-    "message": "Congratulations! You've received your daily bonus +5,000 Light ✨",
-    "streak": "Day {day} Streak",
-    "claim": "Claim Bonus",
+  "nav": {
+    "home": "Home",
+    "tasks": "Tasks",
+    "referral": "Referral",
+    "shop": "Shop",
+    "profile": "Profile",
+    "leaderboard": "Leaderboard"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success!",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
     "close": "Close"
   }
 }

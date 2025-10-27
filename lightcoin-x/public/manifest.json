@@ -1,0 +1,24 @@
+{
+  "short_name": "LightCoinX",
+  "name": "LightCoin X — Tap-to-Earn Revolution",
+  "icons": [
+    {
+      "src": "/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0F0F1A",
+  "theme_color": "#6D28D9",
+  "description": "Tap. Earn. Evolve. Join the future of digital earnings with LightCoin X. Earn tokens with just a tap on your phone.",
+  "orientation": "portrait"
+}

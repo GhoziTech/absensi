@@ -12,7 +12,7 @@
         "title": "Desain Multi-Platform",
         "description": "Cepat, aman, dan bisa diakses dari semua perangkat — dari ponsel hingga PC."
       },
-      "rewards": {
+      "realRewards": {
         "title": "Reward Nyata",
         "description": "Dapatkan token LightCoin yang bisa digunakan atau ditukar di marketplace digital kami."
       },
@@ -28,9 +28,9 @@
     },
     "social": {
       "title": "Bergabung dengan Komunitas Kami",
-      "telegram": "Channel Telegram",
-      "twitter": "Ikuti di X",
-      "youtube": "Channel YouTube",
+      "telegram": "Telegram",
+      "twitter": "Twitter",
+      "youtube": "YouTube",
       "instagram": "Instagram",
       "tiktok": "TikTok"
     },
@@ -45,104 +45,121 @@
       "button": "Masuk",
       "google": "Masuk dengan Google (Cepat & Aman)",
       "noAccount": "Belum punya akun?",
-      "register": "Daftar"
+      "signUp": "Daftar"
     },
     "register": {
-      "title": "Buat Akun & Mulai Petualanganmu.",
+      "title": "Buat Akun & Mulai Petualanganmu",
       "name": "Nama Lengkap",
       "email": "Email",
       "password": "Kata Sandi",
-      "button": "Daftar",
+      "button": "Buat Akun",
       "google": "Daftar dengan Google (Cepat & Aman)",
       "hasAccount": "Sudah punya akun?",
-      "login": "Masuk"
+      "signIn": "Masuk"
     }
   },
   "dashboard": {
-    "title": "💎 Setiap ketukan membawamu lebih dekat ke kebebasan finansial.",
+    "welcome": "💎 Setiap ketukan membawamu lebih dekat ke kebebasan finansial.",
     "balance": "Saldo Light",
     "balanceDesc": "Semakin kamu menambang, semakin besar cahayamu.",
     "energy": "Energi",
     "energyDesc": "Energi = Kesempatan. Gunakan dengan bijak!",
-    "tapToEarn": "Ketuk untuk Hasilkan",
+    "tapPower": "Kekuatan Ketuk",
     "dailyBonus": "Bonus Harian",
     "claimBonus": "Klaim +10.000 Light!",
-    "floatingTip": "Klaim bonus harian untuk mendapatkan +10.000 Light!"
+    "tapToMine": "Ketuk untuk Menambang",
+    "stats": {
+      "totalMined": "Total Ditambang",
+      "referrals": "Referral",
+      "rank": "Peringkat"
+    }
   },
   "referral": {
     "title": "🎁 Bagikan cahaya, dapatkan hadiah.",
     "description": "Undang temanmu dan dapatkan +50.000 Light untuk setiap orang yang bergabung.",
     "yourCode": "Kode Referral Kamu",
-    "copyLink": "🔗 Salin Tautan Referral",
+    "copyLink": "Salin Tautan Referral",
     "copied": "Tersalin!",
     "stats": {
       "total": "Total Referral",
-      "active": "Referral Aktif",
-      "earned": "Total Diperoleh"
+      "earned": "Total Diperoleh",
+      "active": "Referral Aktif"
     },
-    "badge": {
-      "gold": "Lencana Emas (≥10 teman)",
-      "silver": "Lencana Perak (≥5 teman)",
-      "bronze": "Lencana Perunggu (≥1 teman)"
+    "list": {
+      "title": "Referral Kamu",
+      "empty": "Belum ada referral. Mulai bagikan!",
+      "joined": "Bergabung"
     }
   },
   "shop": {
-    "title": "🛍️ Naik level dengan Boost Pack dan Energy Refill!",
+    "title": "🛍️ Tingkatkan Penambangan",
     "description": "Tukarkan LightCoin kamu untuk mendapatkan keunggulan eksklusif dalam menambang.",
+    "buyNow": "Beli Sekarang",
     "items": {
       "energyBoost": {
-        "name": "Paket Energy Boost",
-        "description": "Isi ulang energimu secara instan dan terus menambang!"
+        "name": "Isi Ulang Energi",
+        "description": "Isi ulang 1000 poin energi secara instan"
       },
       "tapPower": {
-        "name": "Upgrade Tap Power",
-        "description": "Dapatkan 2x Light per ketukan selama 24 jam"
+        "name": "Kekuatan Ketuk 2x",
+        "description": "Gandakan kekuatan menambang selama 24 jam"
       },
       "vipPass": {
-        "name": "VIP Pass (30 Hari)",
-        "description": "Dapatkan bonus harian, reward eksklusif, dan dukungan prioritas"
+        "name": "Pass VIP",
+        "description": "Buka manfaat eksklusif selama 30 hari"
       }
-    },
-    "buyNow": "💸 Beli Sekarang",
-    "paymentModal": {
-      "title": "Selesaikan Pembayaran",
-      "description": "Kirim token TON ke alamat di bawah ini:",
-      "address": "Alamat Pembayaran",
-      "amount": "Jumlah",
-      "copy": "Salin Alamat",
-      "verifying": "Memverifikasi pembayaran...",
-      "success": "Pembayaran terverifikasi! Item ditambahkan ke akunmu.",
-      "failed": "Verifikasi pembayaran gagal. Silakan coba lagi.",
-      "close": "Tutup"
     }
   },
   "tasks": {
-    "title": "Selesaikan misi harian dan dapatkan Light tambahan.",
+    "title": "🏆 Selesaikan Misi Harian",
+    "description": "Selesaikan misi dan dapatkan Light tambahan.",
     "available": "Tugas Tersedia",
     "completed": "Tugas Selesai",
-    "claim": "Klaim",
+    "claim": "Klaim Hadiah",
     "claimed": "Diklaim",
-    "tasks": {
-      "twitter": "Ikuti akun Twitter resmi",
-      "telegram": "Gabung komunitas Telegram",
-      "invite": "Undang 1 teman baru",
-      "daily": "Login harian selama 7 hari",
-      "mine": "Tambang 100.000 Light"
+    "complete": "Selesaikan",
+    "list": {
+      "followTwitter": {
+        "title": "Ikuti Twitter",
+        "description": "Ikuti akun Twitter resmi kami"
+      },
+      "joinTelegram": {
+        "title": "Gabung Telegram",
+        "description": "Bergabung dengan komunitas Telegram kami"
+      },
+      "inviteFriend": {
+        "title": "Undang 1 Teman",
+        "description": "Bagikan tautan referral kamu"
+      },
+      "dailyLogin": {
+        "title": "Login Harian",
+        "description": "Login setiap hari untuk mendapat bonus"
+      },
+      "mine1000": {
+        "title": "Tambang 1.000 Light",
+        "description": "Ketuk dan tambang 1.000 Light hari ini"
+      }
     }
   },
   "leaderboard": {
-    "title": "🏆 Bersaing secara sehat. Jadilah penambang terbaik minggu ini.",
+    "title": "🏆 Penambang Teratas",
+    "description": "Bersaing secara sehat. Jadilah penambang terbaik minggu ini.",
     "rank": "Peringkat",
-    "name": "Nama",
+    "miner": "Penambang",
     "light": "Light",
     "you": "Kamu"
   },
   "profile": {
-    "title": "👤 Atur akunmu, ubah bahasa, dan lihat perkembanganmu.",
+    "title": "Pengaturan Profil",
+    "account": "Informasi Akun",
+    "name": "Nama",
+    "email": "Email",
+    "joined": "Bergabung",
     "stats": {
+      "title": "Statistik Kamu",
       "totalMined": "Total Light Ditambang",
       "activeReferrals": "Referral Aktif",
-      "dailyBonus": "Streak Bonus Harian"
+      "dailyStreak": "Streak Bonus Harian"
     },
     "settings": {
       "title": "Pengaturan",
@@ -152,31 +169,52 @@
     },
     "logout": "Keluar"
   },
-  "nav": {
-    "home": "Beranda",
-    "referral": "Referral",
-    "shop": "Toko",
-    "tasks": "Tugas",
-    "leaderboard": "Papan Peringkat",
-    "profile": "Profil"
+  "payment": {
+    "title": "Selesaikan Pembayaran",
+    "item": "Item",
+    "amount": "Jumlah",
+    "instructions": "Kirim jumlah TON yang tepat ke alamat dompet di bawah. Setelah mengirim, tempelkan hash transaksi Anda untuk verifikasi.",
+    "walletAddress": "Alamat Dompet",
+    "scanQR": "Pindai kode QR dengan dompet TON Anda",
+    "txHashLabel": "Hash Transaksi",
+    "txHashPlaceholder": "Masukkan hash transaksi Anda...",
+    "enterTxHash": "Silakan masukkan hash transaksi Anda",
+    "verifyButton": "Verifikasi Pembayaran",
+    "demoConfirm": "Konfirmasi Pembayaran",
+    "verifying": "Memverifikasi Pembayaran...",
+    "verifyingDesc": "Harap tunggu sementara kami memverifikasi transaksi Anda di blockchain.",
+    "success": "Pembayaran Berhasil!",
+    "successDesc": "Pembelian Anda telah dikonfirmasi dan ditambahkan ke akun Anda.",
+    "failed": "Verifikasi Gagal",
+    "failedDesc": "Kami tidak dapat memverifikasi transaksi Anda. Silakan periksa hash transaksi Anda dan coba lagi.",
+    "tryAgain": "Coba Lagi",
+    "needHelp": "Butuh bantuan dengan pembayaran TON?"
   },
   "lightbot": {
     "greeting": "Hai, {name}! Aku LightBot ⚡. Siap bantu kamu jadi penambang terbaik!",
+    "placeholder": "Tanya apa saja...",
     "tips": [
       "Jangan lupa klaim bonus harianmu ya!",
-      "Undang teman untuk mendapatkan lebih banyak Light!",
-      "Selesaikan tugas untuk reward tambahan!",
-      "Upgrade tap power kamu di toko!"
+      "Undang teman untuk mendapat lebih banyak Light!",
+      "Selesaikan tugas harian untuk hadiah ekstra!",
+      "Tingkatkan kekuatan ketuk di toko!"
     ],
-    "motivation": "Cahaya besar dimulai dari satu ketukan kecil.",
-    "placeholder": "Tanya aku apa saja...",
-    "close": "Tutup"
+    "motivation": "Cahaya besar dimulai dari satu ketukan kecil."
   },
-  "dailyBonusModal": {
-    "title": "Bonus Harian! 🎉",
-    "message": "Selamat! Kamu mendapatkan bonus harian +5.000 Light ✨",
-    "streak": "Hari ke-{day} Berturut-turut",
-    "claim": "Klaim Bonus",
+  "nav": {
+    "home": "Beranda",
+    "tasks": "Tugas",
+    "referral": "Referral",
+    "shop": "Toko",
+    "profile": "Profil",
+    "leaderboard": "Papan Peringkat"
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "success": "Berhasil!",
+    "cancel": "Batal",
+    "confirm": "Konfirmasi",
     "close": "Tutup"
   }
 }
